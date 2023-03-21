@@ -16,12 +16,12 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-          <route path='/blog' exact>
+          <Route path='/blog'>
             <Blog />
-          </route>
-          <route path='/info' exact>
+          </Route>
+          <Route path='/Info'>
             <Info />
-          </route>
+          </Route>
         </Switch>
       </Router>
     </div>
@@ -30,3 +30,4 @@ const App = () => {
 
 
 export default App;
+
